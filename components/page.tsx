@@ -28,7 +28,7 @@ const Page = ({ className = "" }) => {
     setLoading(true);
 
     try {
-      const response = await fetch('https://funding4userver-production.up.railway.app/', {
+      const response = await fetch('https://funding4userver-production.up.railway.app/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
